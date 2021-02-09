@@ -81,5 +81,10 @@ public class Snack
         return (this.cost * quantity);
     }
 
-
+    @Override
+    public String toString()
+    {
+        String tmpString = "Snack name: " + name + " Available Quantity: " + quantity + " Unit cost: " + cost + " Vending Machine Id: " + vendingMachineid;
+        return tmpString;
+    }    
 }

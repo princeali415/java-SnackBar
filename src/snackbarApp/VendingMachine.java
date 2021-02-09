@@ -30,4 +30,11 @@ public class VendingMachine
     public void setName(String name){
         this.name = name;
     }
+
+    @Override
+    public String toString()
+    {
+        String tmpString = "Vending Machine name is " + name + " and has a id of " + id;
+        return tmpString;
+    }    
 }

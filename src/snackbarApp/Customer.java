@@ -56,4 +56,11 @@ public class Customer
         this.cashOnHand -= totalCostOfSnacks;
     }
 
+
+    @Override
+    public String toString()
+    {
+        String tmpString = "Customer: " + name + " has $" + cashOnHand;
+        return tmpString;
+    }    
 }
