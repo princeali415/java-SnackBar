@@ -86,7 +86,7 @@ public class Main
         pretzel.buySnack(3);
         System.out.println("Bob cash on hand $" + bob.getCashOnHand());
         System.out.println("Quanitity of Pretzils is " + pretzel.getQuantity());
-
+        System.out.println();
 
         /*
         STRECTH GOALS:
@@ -101,6 +101,18 @@ public class Main
                 comma separating group of 3 numbers
                 rounded to the nearest cents, hundredths place
          */
+
+        // 1. Display each snack with all params available for that snack
+
+        System.out.println(chips);
+        System.out.println();
+        System.out.println(chocolateBar);
+        System.out.println();
+        System.out.println(pretzel);
+        System.out.println();
+        System.out.println(soda);
+        System.out.println();
+        System.out.println(water);
     
     }
     public static void main(String[] args) 
